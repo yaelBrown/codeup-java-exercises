@@ -36,9 +36,19 @@ public class HelloWorld {
 
 //        Using casting you can convert double to float.
         double temp =  3.14;
-        float f = (float)temp;
+        float f = (float) temp;
 
         System.out.println(f); // 3.14
+
+//        More casting
+        double pi = 3.14159;
+        int almostPi = (int) pi;
+
+        System.out.println(almostPi);   // 3
+
+//        Narrowing or Explicit Conversion
+//        Double -> Float -> Long -> Int -> Short -> Byte
+
 
 //        Shows x then adds 1 to the variable of x.
 //        int x = 5;
