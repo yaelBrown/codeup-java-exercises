@@ -23,13 +23,12 @@ public class ControlFlowExercises {
 //            j += 2;
 //        } while (j <= 100);
 
-
         j = 100;
 
 //        do {
 //            System.out.println(j);
 //            j -= 5;
-//        } while (j >= 0);
+//        } while (j >= -10);
 
 
 //        System.out.println(j);
@@ -42,15 +41,25 @@ public class ControlFlowExercises {
 //            } while (k < 1000000);
 
 
-        // FizzBuzz (again)
-//        for (int l = 1; l <= 100; l++) {
-//            if (l % 15 == 0) System.out.println("FizzBuzz");
-//            if (l % 5 == 0) System.out.println("Buzz");
-//            if (l % 3 == 0) System.out.println("Fizz");
-//            System.out.println(l);
+//        for (long y =2; y <= 1000000; y = y * y) {
+//            System.out.println(y);
 //        }
 
 
+//  Number overflows, thats why it goes into an infinite loop and keep printing 0.
+
+        // FizzBuzz (again)
+        for (int l = 1; l <= 100; l++) {
+            if (l % 15 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (l % 5 == 0) {
+                System.out.println("Buzz");
+            } else if (l % 3 == 0) {
+                System.out.println("Fizz");
+            } else {
+                System.out.println(l);
+            };
+        }
 
         Scanner scanner = new Scanner(System.in);
 //
@@ -64,12 +73,14 @@ public class ControlFlowExercises {
 //            System.out.println(m + "      | " + (m * m) + "       | " + ((m * m) * m ));
 //        }
 
+        // Keep using integers since its preferred.
+//        System.out.println(String.format("%-6d, | %-7d | %-6d", l, (int) Math.pow(l, 2), (int) Math.pow(l,3)));
 
 
         boolean cont = true;
-        String response = "";
+        String response;
         char ltrGrade;
-        int grade = 0;
+        int grade;
         System.out.println("Please enter a grade between 0 and 100:");
         grade = scanner.nextInt();
 
