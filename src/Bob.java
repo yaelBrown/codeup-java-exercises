@@ -22,5 +22,7 @@ public class Bob {
             System.out.println("Whatever");
         }
     }
-
 }
+
+// userResponse.endsWith("?");
+// userResponse.isEmpty();
