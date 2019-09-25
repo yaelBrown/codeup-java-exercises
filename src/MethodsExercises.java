@@ -81,9 +81,5 @@ public class MethodsExercises {
 
     }
 
-//    public static void rollDice() {
-//
-//    }
-
 
 }

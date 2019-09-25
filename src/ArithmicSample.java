@@ -1,0 +1,9 @@
+class ArithmicSample {
+
+    public static void main(String[] args) {
+        int x = 5 * 4 % 3;
+        System.out.println(x);
+
+        String b = "asdf" + 2;
+
+    }}
