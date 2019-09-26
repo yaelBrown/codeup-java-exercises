@@ -78,6 +78,7 @@ public class MoviesApplication {
                 System.out.println("You should not see this.");
         }
 
+        // Instead of prompting to search movies at the end of a while loop, have a choice to exit application.
     }
 
 }

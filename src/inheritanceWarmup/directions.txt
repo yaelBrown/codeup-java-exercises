@@ -1,0 +1,10 @@
+1. Make a class Animal that has instance properties for...
+ - age
+ - species
+ - isAlive
+Include a constructor that sets these properties and getters and setters
+2. Make a class of Dog that extends from Animal...
+ Include properties for breed and name
+Include a constructor, getters and setters.
+3. Create a class InheritanceTest with a main method and experiment with
+creating Dog objects, Animal objects, and changing the visibility of the various properties.
