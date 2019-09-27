@@ -18,6 +18,10 @@ public class ShapesTest {
 
         System.out.println(box2.getPerimeter());
 
+        // Create getters and setters everytime you create a new property
+
+        // Always create a constructor for every class you create
+
     }
 
 }
