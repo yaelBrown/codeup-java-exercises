@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Input {
+public class TryCatch {
 
     public static Scanner sc = new Scanner(System.in);
 
@@ -39,3 +39,5 @@ public class Input {
 //interfaces
 //collections
 //exceptions and errors
+
+// boxing and unboxing is the conversion between classes and primitive type

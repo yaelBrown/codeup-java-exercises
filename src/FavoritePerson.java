@@ -8,7 +8,7 @@ public class FavoritePerson {
 
         do {
             System.out.println("Who is your favorite person?");
-            favPerson = Input.sc.nextLine();
+            favPerson = util.Input.sc.nextLine();
             try {
                 System.out.println("favPerson = " + favPerson);
                 equalsYael = favPerson.equalsIgnoreCase("Yael");

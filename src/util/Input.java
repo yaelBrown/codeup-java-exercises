@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Input {
 
+    public static Scanner sc = new Scanner(System.in);
     // Don't define how the scanner is going to be used.
     // Could be used differently.
     private static Scanner scanner = new Scanner(System.in);
